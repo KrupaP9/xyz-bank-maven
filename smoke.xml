@@ -1,0 +1,13 @@
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/krupa/IdeaProjects/xyz-bank/src/test/java/com/bank/testsuite/BankTest.java">
+        <classes>
+            <class name="com.bank.testsuite.BankTest">
+                <methods>
+                    <include name="bankManagerShouldOpenAccountSuccessfully"/>
+                    <include name="customerShouldLoginAndLogoutSuceessfully"/>
+                    <include name="customerShouldDepositMoneySuccessfully"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

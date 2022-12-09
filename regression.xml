@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/krupa/IdeaProjects/xyz-bank/src/test/java/com/bank/testsuite/BankTest.java">
+        <classes>
+            <class name="com.bank.testsuite.BankTest">
+                <methods>
+                    <include name="bankManagerShouldAddCustomerSuccessfully"/>
+                    <include name="bankManagerShouldOpenAccountSuccessfully"/>
+                    <include name="customerShouldLoginAndLogoutSuceessfully"/>
+                    <include name="customerShouldDepositMoneySuccessfully"/>
+                    <include name="customerShouldWithdrawMoneySuccessfully"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="63213" started-at="2022-12-09T12:00:28 GMT" finished-at="2022-12-09T12:01:31 GMT">
+    <groups>
+    </groups>
+    <test name="xyz-bank" duration-ms="63213" started-at="2022-12-09T12:00:28 GMT" finished-at="2022-12-09T12:01:31 GMT">
+      <class name="com.bank.testsuite.BankTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bank.testsuite.BankTest@9a7504c]" name="setUp" is-config="true" duration-ms="15058" started-at="2022-12-09T12:00:28 GMT" finished-at="2022-12-09T12:00:43 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="bankManagerShouldAddCustomerSuccessfully()[pri:0, instance:com.bank.testsuite.BankTest@9a7504c]" name="bankManagerShouldAddCustomerSuccessfully" duration-ms="1885" started-at="2022-12-09T12:00:43 GMT" finished-at="2022-12-09T12:00:45 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bankManagerShouldAddCustomerSuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bank.testsuite.BankTest@9a7504c]" name="tearDown" is-config="true" duration-ms="1407" started-at="2022-12-09T12:00:45 GMT" finished-at="2022-12-09T12:00:47 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bank.testsuite.BankTest@9a7504c]" name="setUp" is-config="true" duration-ms="5300" started-at="2022-12-09T12:00:47 GMT" finished-at="2022-12-09T12:00:52 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="bankManagerShouldOpenAccountSuccessfully()[pri:0, instance:com.bank.testsuite.BankTest@9a7504c]" name="bankManagerShouldOpenAccountSuccessfully" duration-ms="6922" started-at="2022-12-09T12:00:52 GMT" finished-at="2022-12-09T12:00:59 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bankManagerShouldOpenAccountSuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bank.testsuite.BankTest@9a7504c]" name="tearDown" is-config="true" duration-ms="1279" started-at="2022-12-09T12:00:59 GMT" finished-at="2022-12-09T12:01:00 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bank.testsuite.BankTest@9a7504c]" name="setUp" is-config="true" duration-ms="10288" started-at="2022-12-09T12:01:00 GMT" finished-at="2022-12-09T12:01:10 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="customerShouldDepositMoneySuccessfully()[pri:0, instance:com.bank.testsuite.BankTest@9a7504c]" name="customerShouldDepositMoneySuccessfully" duration-ms="2831" started-at="2022-12-09T12:01:10 GMT" finished-at="2022-12-09T12:01:13 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customerShouldDepositMoneySuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bank.testsuite.BankTest@9a7504c]" name="tearDown" is-config="true" duration-ms="1275" started-at="2022-12-09T12:01:13 GMT" finished-at="2022-12-09T12:01:14 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bank.testsuite.BankTest@9a7504c]" name="setUp" is-config="true" duration-ms="4774" started-at="2022-12-09T12:01:14 GMT" finished-at="2022-12-09T12:01:19 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="customerShouldLoginAndLogoutSuceessfully()[pri:0, instance:com.bank.testsuite.BankTest@9a7504c]" name="customerShouldLoginAndLogoutSuceessfully" duration-ms="2504" started-at="2022-12-09T12:01:19 GMT" finished-at="2022-12-09T12:01:22 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customerShouldLoginAndLogoutSuceessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bank.testsuite.BankTest@9a7504c]" name="tearDown" is-config="true" duration-ms="1527" started-at="2022-12-09T12:01:22 GMT" finished-at="2022-12-09T12:01:23 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.bank.testsuite.BankTest@9a7504c]" name="setUp" is-config="true" duration-ms="4839" started-at="2022-12-09T12:01:23 GMT" finished-at="2022-12-09T12:01:28 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="customerShouldWithdrawMoneySuccessfully()[pri:0, instance:com.bank.testsuite.BankTest@9a7504c]" name="customerShouldWithdrawMoneySuccessfully" duration-ms="1977" started-at="2022-12-09T12:01:28 GMT" finished-at="2022-12-09T12:01:30 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customerShouldWithdrawMoneySuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bank.testsuite.BankTest@9a7504c]" name="tearDown" is-config="true" duration-ms="1160" started-at="2022-12-09T12:01:30 GMT" finished-at="2022-12-09T12:01:31 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.bank.testsuite.BankTest -->
+    </test> <!-- xyz-bank -->
+  </suite> <!-- Default Suite -->
+</testng-results>

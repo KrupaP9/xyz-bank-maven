@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]">
+  <test thread-count="5" name="C:/Users/krupa/IdeaProjects/xyz-bank/src/test/java/com/bank/testsuite/BankTest.java(failed)">
+    <classes>
+      <class name="com.bank.testsuite.BankTest">
+        <methods>
+          <include name="bankManagerShouldOpenAccountSuccessfully"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="bankManagerShouldAddCustomerSuccessfully"/>
+        </methods>
+      </class> <!-- com.bank.testsuite.BankTest -->
+    </classes>
+  </test> <!-- C:/Users/krupa/IdeaProjects/xyz-bank/src/test/java/com/bank/testsuite/BankTest.java(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
